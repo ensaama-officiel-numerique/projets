@@ -1,0 +1,27 @@
+<!-- https://github.com/jorgecardoso/aframe-proxemic-component -->
+<!-- le cube change de couleur quand on l'approche ou quand on s'éloigne -->
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-proxemic-component@0.0.17/dist/aframe-proxemic-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-event-set-component@^4.0.0/dist/aframe-event-set-component.min.js"></script>
+  </head>
+
+  <body>
+    <a-scene background="color: #5280A7" keyboard-shortcuts="enterVR: false;">
+      <a-box  proximity-sensor="distance:1"
+              depth="0.5" height="0.5" width="0.5"
+              position="0 1.5 -1.5"
+              rotation="0 45 0"
+              color="yellow"
+              event-set__proximityenter="material.color:blue"
+              event-set__proximityexit="material.color: red"
+              >
+      </a-box>
+
+      <a-plane color="silver" height="3" width="3" rotation=" -90 0 0"></a-plane>
+      <a-entity id="camera" camera position="0 1.6 0" wasd-controls look-controls></a-entity>
+
+    </a-scene>
+  </body>
+</html>

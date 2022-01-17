@@ -1,0 +1,58 @@
+<!-- https://aframe.io/docs/1.2.0/components/hand-controls.html -->
+<!-- attention, model3D seulementavec oculus-touch-controls -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script>
+        AFRAME.registerComponent('sizehands', {
+            schema: {
+                maxsize: { type: 'number', default: 1.5 }
+            },
+            init: function () {
+                var data = this.data;
+                var maxsize = data.maxsize;
+                var el = this.el;
+
+                setInterval(function () {
+                        //console.log('maxsize = ' + maxsize);
+                        var scale = el.object3D.scale.x;
+                        console.log(scale);
+                        if( scale < maxsize) scale=(parseFloat(scale)+0.2).toFixed(2);
+                        console.log(scale);
+                        el.object3D.scale.set(scale, scale, scale);
+                    },
+                    2000);
+            }
+        });
+    </script>
+</head>
+
+<body>
+    <a-scene background="color: #5280A7">
+        <a-assets>
+            <a-asset-item id="main_d" src="./assets/toon_righthand.glb"></a-asset-item>
+            <a-asset-item id="main_g" src="./assets/toon_lefthand.glb"></a-asset-item>
+        </a-assets>
+
+        <a-entity id="leftHand" 
+                    oculus-touch-controls="hand: left; model: false">
+                    <a-entity sizehands="maxsize: 3" gltf-model="#main_g"></a-entity>
+        </a-entity>
+        <a-entity id="rightHand" 
+                    oculus-touch-controls="hand: right; model: false">
+                    <a-entity sizehands="maxsize: 3" gltf-model="#main_d"></a-entity>
+        </a-entity>
+
+        <a-box  scale="0.5 0.5 0.5" position="0 1.6 -3" rotation="0 45 0" color="red"
+                sizehands="maxsize: 2">
+        </a-box>
+
+        <a-plane rotation="-90 0 0" width="10" height="10" color="silver"></a-plane>
+
+    </a-scene>
+</body>
+
+</html>
