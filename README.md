@@ -9,7 +9,7 @@
 * DSAA Mentions Numérique : [site](https://www.ensaama.net/site/home/formations/dsaa/design-numerique)
 
 ## JPO 2025
-* [AR_ARCADE](./2025/AR_ARCADE/3_aframe_ar/README.md)
+* [AR_ARCADE_demo](./2025/AR_ARCADE/3_aframe_ar/README.md)
 
 <!-- 
 ## 2020-2021
