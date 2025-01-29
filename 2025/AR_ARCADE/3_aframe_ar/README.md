@@ -9,6 +9,9 @@
 * [3_href_3Dmodel](./3_href_3Dmodel.html)
 * [4_href_final](./4_href_final.html)
 
+#### liens build
+* [demo](./etudiants/demo/index.html)
+
 
 #### ressources
 * [image marker demo (pattern ratio 0.75)](./assets/demo.png)
