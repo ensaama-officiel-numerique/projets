@@ -39,50 +39,61 @@
         </a-marker>
         <a-marker type="pattern" url="./assets/patterns/sanches.patt" id="sara">
         </a-marker>
+        <a-marker type="pattern" url="./assets/patterns/martin.patt" id="eleonore">
+        </a-marker>
+        <a-marker type="pattern" url="./assets/patterns/Milan.patt" id="milan">
+        </a-marker>
         <a-entity camera></a-entity>
     </a-scene>
 
     <script>
+        var site = "https://ensaama-officiel-numerique.github.io/projets/2025/AR_ARCADE/3_aframe_ar/etudiants";
         // Écouter l'événement `markerFound` et rediriger l'utilisateur
         document.querySelector('#marker').addEventListener('markerFound', function () {
-            window.location.href = 'https://ensaama.net/site/home/formations/dnmade/numerique-expriences-narratives-et-interactives';
+            window.location.href = site+"/demo";
         });
         document.querySelector('#annaelle').addEventListener('markerFound', function () {
-            window.location.href = 'https://ensaama.net/site/home/formations/dnmade/numerique-expriences-narratives-et-interactives';
+            window.location.href = site+"/annaelle";
         });
         document.querySelector('#celeste').addEventListener('markerFound', function () {
-            window.location.href = 'https://ensaama.net/site/home/formations/dnmade/numerique-expriences-narratives-et-interactives';
+            window.location.href = site+"/celeste";
         });
         document.querySelector('#eli').addEventListener('markerFound', function () {
-            window.location.href = 'https://ensaama.net/site/home/formations/dnmade/numerique-expriences-narratives-et-interactives';
+            window.location.href = site+"/eli";
         });
         document.querySelector('#sixtine').addEventListener('markerFound', function () {
-            window.location.href = 'https://ensaama.net/site/home/formations/dnmade/numerique-expriences-narratives-et-interactives';
+            window.location.href = site+"/sixtine";
         });
         document.querySelector('#hendy').addEventListener('markerFound', function () {
-            window.location.href = 'https://ensaama.net/site/home/formations/dnmade/numerique-expriences-narratives-et-interactives';
+            window.location.href = site+"/hendy";
         });
         document.querySelector('#hugo').addEventListener('markerFound', function () {
-            window.location.href = 'https://ensaama.net/site/home/formations/dnmade/numerique-expriences-narratives-et-interactives';
+            window.location.href = site+"/hugo";
         });   
         document.querySelector('#ilian').addEventListener('markerFound', function () {
-            window.location.href = 'https://ensaama.net/site/home/formations/dnmade/numerique-expriences-narratives-et-interactives';
+            window.location.href = site+"/ilian";
         });
         document.querySelector('#isadora').addEventListener('markerFound', function () {
-            window.location.href = 'https://ensaama.net/site/home/formations/dnmade/numerique-expriences-narratives-et-interactives';
+            window.location.href = site+"/isadora";
         });
         document.querySelector('#laureline').addEventListener('markerFound', function () {
-            window.location.href = 'https://ensaama.net/site/home/formations/dnmade/numerique-expriences-narratives-et-interactives';
+            window.location.href = site+"/laureline";
         });
         document.querySelector('#lena').addEventListener('markerFound', function () {
-            window.location.href = 'https://ensaama.net/site/home/formations/dnmade/numerique-expriences-narratives-et-interactives';
+            window.location.href = site+"/lena";
         });
         document.querySelector('#marianne').addEventListener('markerFound', function () {
-            window.location.href = 'https://ensaama.net/site/home/formations/dnmade/numerique-expriences-narratives-et-interactives';
+            window.location.href = site+"/marianne";
         });
         document.querySelector('#sara').addEventListener('markerFound', function () {
-            window.location.href = 'https://ensaama.net/site/home/formations/dnmade/numerique-expriences-narratives-et-interactives';
-        });                                                      
+            window.location.href = site+"/sara";
+        });    
+        document.querySelector('#eleonore').addEventListener('markerFound', function () {
+            window.location.href = site + "/eleonore";
+        });
+        document.querySelector('#milan').addEventListener('markerFound', function () {
+            window.location.href = site + "/milan";
+        });                                                           
     </script>
 </body>
 
