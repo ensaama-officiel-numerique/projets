@@ -9,8 +9,12 @@
 * [3_href_3Dmodel](./3_href_3Dmodel.html)
 * [4_href_final](./4_href_final.html)
 
+#### test UI
+* [composition-graisse](../0_UI/testUI/index.html)
+
 #### détection QR code
 * [détection QR code](https://ensaama-officiel-numerique.github.io/projets/2025/AR_ARCADE/3_aframe_ar/ar_arcade_href_final.html)
+* QRcode : [v1](./assets/QRcode/QR_code_ensaama_empty.png) | [v2](./assets/QRcode/QR_code_ensaama.png)
 
 #### test détection AR marker
 * [annaelle](https://ensaama-officiel-numerique.github.io/projets/2025/AR_ARCADE/3_aframe_ar/0_marker_Annaelle.html)
