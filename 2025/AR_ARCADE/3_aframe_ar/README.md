@@ -3,11 +3,12 @@
 ### AR_ARCADE
 
 #### liens new
-* [0_marker (pattern ratio 0.75)](./0_marker.html)
-* [1_href_direct](./1_href_direct.html)
-* [2_href_primitive](./2_href_primitive.html)
-* [3_href_3Dmodel](./3_href_3Dmodel.html)
-* [4_href_final](./4_href_final.html)
+* [image marker demo (pattern ratio 0.75)](./assets/images/demo.png)
+* [0_marker (pattern ratio 0.75)](./demo_0_marker.html)
+* [1_href_direct](./demo_1_href_direct.html)
+* [2_href_primitive](./demo_2_href_primitive.html)
+* [3_href_3Dmodel](./demo_3_href_3Dmodel.html)
+* [4_href_final](./demo_4_href_final.html)
 
 #### test UI
 * [composition-graisse](../0_UI/testUI/index.html)
