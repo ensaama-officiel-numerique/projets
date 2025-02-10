@@ -2,7 +2,7 @@
 ## 2024-2025 _ DNMADE2
 ### AR_ARCADE
 
-#### liens new
+#### liens demo
 * [image marker demo (pattern ratio 0.75)](./assets/images/demo.png)
 * [0_marker (pattern ratio 0.75)](./demo_0_marker.html)
 * [1_href_direct](./demo_1_href_direct.html)
