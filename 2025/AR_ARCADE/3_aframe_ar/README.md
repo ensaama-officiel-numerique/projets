@@ -45,6 +45,7 @@
 * [lena](https://ensaama-officiel-numerique.github.io/projets/2025/AR_ARCADE/3_aframe_ar/webglbuilds/lena/index.html)
 * [marianne](https://ensaama-officiel-numerique.github.io/projets/2025/AR_ARCADE/3_aframe_ar/webglbuilds/marianne/index.html)
 * [milan](https://ensaama-officiel-numerique.github.io/projets/2025/AR_ARCADE/3_aframe_ar/webglbuilds/milan/index.html)
+* [milan2](https://ensaama-officiel-numerique.github.io/projets/2025/AR_ARCADE/3_aframe_ar/webglbuilds/milan2/index.html)
 * [priam](https://ensaama-officiel-numerique.github.io/projets/2025/AR_ARCADE/3_aframe_ar/webglbuilds/isadora/index.html)
 * [sara](https://ensaama-officiel-numerique.github.io/projets/2025/AR_ARCADE/3_aframe_ar/webglbuilds/sara/index.html)
 * [sixtine](https://ensaama-officiel-numerique.github.io/projets/2025/AR_ARCADE/3_aframe_ar/webglbuilds/sixtine/index.html)
