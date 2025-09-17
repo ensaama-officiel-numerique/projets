@@ -1,4 +1,4 @@
-*eminet
+#etienne minet
 
 * [texture](./demoVR_textures.html)
 * [labyrinthe](./labyrinthe.html)
