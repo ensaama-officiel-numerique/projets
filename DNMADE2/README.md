@@ -1,7 +1,7 @@
-*DNMADE2
+#DNMADE2
 
-**WEBVR
-* [eminet](../WEBVR/README.md)
+##WEBVR
+* [eminet](./WEBVR/README.md)
 * [pénélope]()
 * [jeanne-lys]()
 * [Manon V]()
